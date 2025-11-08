@@ -72,7 +72,7 @@ export const Login = () => {
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  className="h-[60px] bg-white rounded-lg border-2 border-gray-300 text-lg px-4 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200"
+                  className="h-[60px] bg-white rounded-lg border-2 border-gray-300 text-lg px-4 text-gray-900 placeholder-gray-500 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200"
                   placeholder="Enter username or email"
                 />
               </div>
@@ -89,7 +89,7 @@ export const Login = () => {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="h-[60px] bg-white rounded-lg border-2 border-gray-300 text-lg px-4 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200"
+                  className="h-[60px] bg-white rounded-lg border-2 border-gray-300 text-lg px-4 text-gray-900 placeholder-gray-500 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200"
                   placeholder="Enter password"
                 />
               </div>

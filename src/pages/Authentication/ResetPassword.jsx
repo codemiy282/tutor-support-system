@@ -59,7 +59,7 @@ export const ResetPassword = () => {
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  className="w-full h-[67px] bg-[#eaeaea] rounded-lg border border-solid border-black shadow-[0px_4px_4px_#00000040] text-lg px-4"
+                  className="w-full h-[67px] bg-[#eaeaea] rounded-lg border border-solid border-black shadow-[0px_4px_4px_#00000040] text-lg px-4 text-gray-900 placeholder-gray-600"
                   placeholder="Enter your username"
                 />
               </div>
@@ -76,7 +76,7 @@ export const ResetPassword = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full h-[67px] bg-[#eaeaea] rounded-lg border border-solid border-black shadow-[0px_4px_4px_#00000040] text-lg px-4"
+                  className="w-full h-[67px] bg-[#eaeaea] rounded-lg border border-solid border-black shadow-[0px_4px_4px_#00000040] text-lg px-4 text-gray-900 placeholder-gray-600"
                   placeholder="Enter your email"
                 />
               </div>
