@@ -4,7 +4,10 @@
   --color-primary: #0891B2;
   --color-primary-light: #CFF6FF;
   --color-secondary: #3AA5B6;
+  --color-secondary-light: #eefffe;
   --color-border-primary: #62D8F4;
+  --color-border-secondary: #D9D9D9;
+  --color-text-primary: #6C737A;
 
 }
 
@@ -27,3 +30,19 @@ body {
   padding: 0;
 }
 
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in-up 0.6s ease forwards;
+  animation-delay: var(--animation-delay, 0ms);
+}
