@@ -88,7 +88,7 @@ export const ChangePassword = () => {
                 >
                   <label
                     htmlFor={field.id}
-                    className="[font-family:'Rubik_One-Regular',Helvetica] font-normal text-cyan-600 text-[32px] tracking-[0] leading-[normal]"
+                    className="[font-family:'Rubik_One-Regular',Helvetica] font-normal text-cyan-600 text-[32px] tracking-[0] leading-[normal] whitespace-nowrap"
                   >
                     {field.label}
                   </label>
@@ -115,7 +115,7 @@ export const ChangePassword = () => {
                         setConfirmPassword(e.target.value);
                       }
                     }}
-                    className="h-[67px] bg-[#eaeaea] rounded-lg border border-solid border-black shadow-[0px_4px_4px_#00000040] text-lg px-4"
+                    className="h-[56px] w-full max-w-[360px] justify-self-end bg-[#eaeaea] rounded-lg border border-solid border-black shadow-[0px_4px_4px_#00000040] text-lg px-4 text-gray-900 placeholder-gray-600"
                     placeholder={`Enter ${field.label.toLowerCase()}`}
                   />
                 </div>
